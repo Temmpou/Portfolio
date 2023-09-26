@@ -1,2 +1,29 @@
 # Portfolio
-A portfolio of certifications, projects and other programming related accomplishments. Regularly updated with recent progress!
+Portfolio for Magnus Mørup Poulsen*. Included are certifications, projects and other programming related accomplishments.
+> *Also known as "Temmpou"
+
+## Certifications
+None
+
+## Languages
+
+HTML
+
+CSS
+
+JavaScript
+
+Python
+
+C#
+
+## Currently Working On
+
+### Courses
+Responsive Web Design
+
+### Projects
+None
+
+## Completed Courses
+None
