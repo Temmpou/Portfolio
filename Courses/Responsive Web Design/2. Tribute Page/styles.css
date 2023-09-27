@@ -1,0 +1,24 @@
+body {
+    font-family: "Candara", "Segoe UI";
+    margin: 10em;
+    background-color: #f2f2f2;
+}
+  
+header {
+    text-align: center;
+}
+
+#img-div {
+    display: block;
+    text-align: center;
+    font-size: 14;
+}
+
+#image {
+    aspect-ratio: 1350 / 2409;
+    display: block;
+    max-width: 100%;
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+}

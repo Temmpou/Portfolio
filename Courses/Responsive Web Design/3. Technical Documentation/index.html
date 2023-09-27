@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Setting up HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>HTML</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#First_Steps">First Steps</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Head_vs_Body">Head vs Body</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Setting_Up_Head">Setting Up Head</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Setting_Up_Body">Setting Up Body</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            Before you start making websites with HTML, you should get familiar with some good practices before making a website.
+          </p>
+          <p>
+            This guide will show you how to:
+          </p>
+          <ul>
+            <li>Create a website</li>
+            <li>Add a title</li>
+            <li>Know the difference between a "Head" and a "Body" of a website</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="First_Steps">
+        <header>First Steps</header>
+        <article>
+          <p>
+            In order to use this guide properly it is recommended that you:
+          </p>
+          <ul>
+            <li>Know how HTML is written</li>
+            <li>Have a tool to write the code ready</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Head_vs_Body">
+        <header>Head vs Body</header>
+        <article>
+          <p>The head of a website is generally the things you don't see directly on the page such as:
+          </p>
+          <ul>
+            <li>The title</li>
+            <li>The connection between the HTML and the CSS</li>
+            <li>The rules for the site (meta tags)</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Setting_Up_Head">
+        <header>Setting Up Head</header>
+        <article>
+          <p>
+            To start off with let's tell the internet that this is a HTML document.
+          </p>
+          <p>To do this we start off the document by typing:</p>
+          <div><<code>!DOCTYPE html</code>></div>
+          <p>
+            Next to start writing HTML type out:
+          </p>
+          <div><<code>html lang="en"</code>><br><br><<code>/html</code>></div>
+          <p>
+            Now we need to set up the head of a page. Between the HTML opening and closing tag type out:
+          </p>
+          <div><<code>head</code>><br><br><<code>/head</code>></div>
+          <p>
+            Congrats! You have now setup the head of the page.
+          </p>
+          <p>
+            Now we need to link our stylesheet to the HTML document. To do this type:
+          </p>
+          <div><<code>link rel="stylesheet" href="(location of the stylesheet eg ./styles.css)</code>></div>
+          <p>
+            Remember to replace the location with where the stylesheet is located.
+          </p>
+          <p>
+            Next we add some "meta" tags in order to complete the setup of the head. Type:
+          </p>
+          <div><<code>meta charset="UTF-8"</code>><br><<code>meta name="viewport" content="width=device-width, initial-scale="1.0"</code>></div>
+          <p>
+            This is done to tell the browser that it should use the full width of the device and that we are using the "UTF-8" set of characters.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Setting_Up_Body">
+        <header>Setting Up Body</header>
+        <article>
+          <p>
+            To set up the body, type:
+          </p>
+            <div><<code>body</code>><br><br><<code>/body</code>></div>
+          <p>
+            Congratulations! You are now ready to create your website content!
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
